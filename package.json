@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "biblioteca de links com node",
   "main": "lib/index.js",
+  "bin": {
+    "md-links": "cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint --ext .js lib/test/",
+    "test": "jest",
+    "pretest": "npm run eslint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/JessikaFujimura/SAP003-md-links/issues"
   },
-  "homepage": "https://github.com/JessikaFujimura/SAP003-md-links#readme"
+  "homepage": "https://github.com/JessikaFujimura/SAP003-md-links#readme",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0"
+  }
 }
