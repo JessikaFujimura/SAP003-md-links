@@ -8,8 +8,7 @@
   },
   "scripts": {
     "eslint": "eslint --ext .js lib/test/",
-    "test": "jest",
-    "pretest": "npm run eslint"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,6 @@
   },
   "homepage": "https://github.com/JessikaFujimura/SAP003-md-links#readme",
   "dependencies": {
-    "commander": "^4.0.1",
     "eslint": "^6.7.1",
     "jest": "^24.9.0"
   }
