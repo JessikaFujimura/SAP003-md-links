@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 const mdLinks = require("./lib/index.js");
-const path = process.argv[2];
+const modpath = require("path");
+const path = modpath.resolve(process.argv[2]);
+const option = process.argv[3];
 
-mdLinks(path)
-  .then((result)=> result.forEach((i) => console.log(i)))
-  .catch((reject)=> console.log(reject));
+mdLinks(path, option)
+  .then((result)=> result.forEach((i) => console.log(i.href + " / " + i.title + "/" )))
+  .catch((reject)=> console.error);

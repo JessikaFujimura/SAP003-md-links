@@ -14,14 +14,15 @@
     "type": "git",
     "url": "git+https://github.com/JessikaFujimura/SAP003-md-links.git"
   },
-  "author": "",
+  "author": "Jéssika M. Fujimura",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JessikaFujimura/SAP003-md-links/issues"
   },
   "homepage": "https://github.com/JessikaFujimura/SAP003-md-links#readme",
-  "dependencies": {
+  "devdependencies": {
     "eslint": "^6.7.1",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "node-fetch": "^2.6.0"
   }
 }
