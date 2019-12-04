@@ -1,8 +1,13 @@
 {
   "name": "md-links",
   "version": "1.0.0",
-  "description": "biblioteca de links com node",
+  "description": "biblioteca para extrair url de arquivos markdown com node",
   "main": "lib/index.js",
+  "keywords": [
+    "javascript",
+    "node.js",
+    "markdown"
+  ],
   "bin": {
     "md-links": "cli.js"
   },
@@ -21,8 +26,10 @@
   },
   "homepage": "https://github.com/JessikaFujimura/SAP003-md-links#readme",
   "dependencies": {
-    "eslint": "^6.7.1",
-    "jest": "^24.9.0",
     "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0"
   }
 }
