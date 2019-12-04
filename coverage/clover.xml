@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1575289172478" clover="3.2.0">
-  <project timestamp="1575289172478" name="All files">
-    <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4" elements="18" coveredelements="18" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+<coverage generated="1575429794577" clover="3.2.0">
+  <project timestamp="1575429794577" name="All files">
+    <metrics statements="21" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="4" elements="34" coveredelements="26" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
     <file name="index.js" path="/home/jessika/Documentos/Laboratória/SAP003-md-links/lib/index.js">
-      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <metrics statements="21" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="13" count="1" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="19" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
