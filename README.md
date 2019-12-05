@@ -46,7 +46,7 @@ mdLinks("./README.md")
   .then(console.log)
   .catch(console.error);
 ```
-Retornado:
+Retorno:
 
 ```js
 `Promise {
@@ -94,7 +94,7 @@ Para validar as url, é necessário inserir um terceiro argumento, após o camin
 
 Pelo Node:
 
-```js
+```shell
 $node
 
 const mdLinks = require("md-links");

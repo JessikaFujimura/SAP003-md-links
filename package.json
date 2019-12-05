@@ -12,7 +12,7 @@
     "md-links": "cli.js"
   },
   "scripts": {
-    "eslint": "eslint --ext .js lib/__test__/",
+    "eslint": "eslint --ext .js lib/__tests__/ cli lib/index",
     "test": "jest --coverage"
   },
   "repository": {
